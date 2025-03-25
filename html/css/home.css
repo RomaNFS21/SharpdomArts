@@ -1,0 +1,159 @@
+/* FONTE OPEN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+
+header{
+    border-top: 5px solid #447ED6;
+}
+
+.conteudo-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px ;
+}
+
+.menu-site{
+    display: flex;
+    gap: 30px;
+}
+
+.menu-site a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.menu-site pagina-selecionada{
+    color: #447ED6;
+}
+
+.menu-site a:hover{
+    color:#447ED6;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+.conteudo-main{
+    background-color: #000000;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.titulo-sobre{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em ;
+    margin: 30px;
+    text-align: center;
+}
+
+.conteudo-sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+.paragrafos{
+    margin: auto;
+    
+}
+
+.conteudo-sobre p{
+    align-items: center;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 1.5em;
+}
+
+.conteudo-sobre p:last-child{
+    margin-top: 30px;
+}
+
+.arte-jade{
+    margin: auto;
+}
+
+.artes img{
+    width: 300px;
+}
+
+.artes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px 0px 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 5px solid #447ED6;
+    border-bottom: 5px solid #447ED6;
+    padding: 20px 0px ;
+    font-weight: 600;
+}
+
+.conteudo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.footer-esquerda{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-direita{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.mapa-site{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.mapa-site a{
+    text-decoration: none;
+    color: black;
+}
+
+.mapa-site a:hover{
+    color: #447ED6;
+    text-decoration: underline;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociais img{
+    width: 30px;
+}
+
+.redes-sociais img:hover{
+    border: 1px solid #447ED6;
+}
