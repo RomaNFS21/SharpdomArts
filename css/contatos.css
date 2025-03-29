@@ -46,8 +46,8 @@ div a.pagina-selecionada{
 
 /* MAIN */
 
-.conteudo-main{
-    background-color: #000000;
+main{
+    background-color: black;
     color: white;
 }
 
@@ -55,53 +55,79 @@ div a.pagina-selecionada{
     width: 100%;
 }
 
-.titulo-sobre{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 2em ;
-    margin: 30px;
+.conteudo-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 350px 30px 450px 30px;
+}
+
+.formulario-p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.titulo{
+    justify-content: left;
+}
+
+.formulario-p2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     text-align: center;
 }
 
-.conteudo-sobre{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 30px;
+.formulario-p2 h1{
+    font-size: 2em;
 }
 
-.paragrafos{
-    margin: auto;
+.campo-titulo{
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.conteudo-sobre p{
-    align-items: center;
-    text-align: justify;
-    text-indent: 1em;
-    font-size: 1.5em;
+.campo-resposta{
+    margin-bottom: 20px;    
 }
 
-.conteudo-sobre p:last-child{
-    margin-top: 30px;
+.campo-resposta textarea{
+    color: white;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 600px;
+    height: 100px;
+    resize: none;
 }
 
-.arte-jade{
-    margin: auto;
+.campo-resposta input{
+    color: white;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 600px;
 }
 
-.artes img{
-    width: 300px;
+.botao-enviar{
+    text-align: center;
 }
 
-.artes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 30px 0px 30px;
-    padding-bottom: 30px;
-    gap: 30px;
+.botao-enviar button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #447ED6;
+    color: white;
+    border: none;
 }
+
 
 /* FOOTER */
 
@@ -158,5 +184,5 @@ footer{
 }
 
 .footer-direita img:hover{
-    border: 2px solid #447ED6;
+    width: 10px;
 }

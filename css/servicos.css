@@ -46,61 +46,56 @@ div a.pagina-selecionada{
 
 /* MAIN */
 
-.conteudo-main{
+main{
     background-color: #000000;
-    color: white;
 }
 
-.banner img{
-    width: 100%;
-}
-
-.titulo-sobre{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 2em ;
-    margin: 30px;
-    text-align: center;
-}
-
-.conteudo-sobre{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 30px;
-}
-
-.paragrafos{
-    margin: auto;
-}
-
-.conteudo-sobre p{
-    align-items: center;
-    text-align: justify;
-    text-indent: 1em;
-    font-size: 1.5em;
-}
-
-.conteudo-sobre p:last-child{
-    margin-top: 30px;
-}
-
-.arte-jade{
-    margin: auto;
-}
-
-.artes img{
-    width: 300px;
-}
-
-.artes{
+.botoes-servicos{
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 200px 30px 300px 30px;
+    }
+
+.botoes-servicos button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #447ED6;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 1em;
+}
+
+.titulo-categoria{
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.titulo-categoria h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 2.5em;
+    position: absolute;
+    padding: 10px 0 0 10px;
+}
+
+.area-ilustracoes{
+width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-    margin: 30px 30px 0px 30px;
-    padding-bottom: 30px;
-    gap: 30px;
+    margin: auto;
+}
+
+.area-ilustracoes img{
+    
 }
 
 /* FOOTER */
@@ -158,5 +153,5 @@ footer{
 }
 
 .footer-direita img:hover{
-    border: 2px solid #447ED6;
+    width: 10px;
 }

@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contatos</title>
+    <link rel="shortcut icon" href="./media/Logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/contatos.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="conteudo-header">
+            <div class="logo-header">
+                <img src="../media/Logos/LogoSharp.png" alt="Logo Sharp">
+            </div>
+            <div class="menu-site">
+                <a href="../index.html">Início</a>
+                <a href="../html/servicos.html">Serviços</a>
+                <a class="pagina-selecionada" href="../html/contatos.html">Contatos</a>
+            </div>
+            <div class="linguagem">
+                <a href="../html/contatos.html"><img src="../media/Logos/FlagBrazil.png" alt="Portuguese"></a>
+                <a href="../html/contacts.html"><img src="../media/Logos/FlagUSA.png" alt="English-US"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <img src="../media/Banners/BannerContatos.png" alt="Banner">
+        </div>
+        <div class="conteudo-main">
+            <div class="formulario-p1">
+                <form action="">
+                    <!--NOME-->
+                    <div class="campo-titulo">
+                        <label for="nomeCompleto">Nome</label>
+                    </div>
+                    <div class="campo-resposta">
+                        <input type="text" name="" id="" placeholder="Coloque seu nome completo aqui" required>
+                    </div>
+                    <!--EMAIL-->
+                    <div class="campo-titulo">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="campo-resposta">
+                        <input type="email" name="" id="" placeholder="SeuEmail@email.com" required>
+                    </div>
+                    <!--MENSAGEM-->
+                    <div class="campo-titulo">
+                        <label for="menssagem">Mensagem</label>
+                    </div>
+                    <div class="campo-resposta">
+                        <textarea name="menssagem" id="" placeholder="Escreva sua mensagem" minlength="10"
+                            maxlength="200" required></textarea>
+                    </div>
+                    <!--BOTAO ENVIAR-->
+                    <div class="botao-enviar">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="formulario-p2">
+                <div class="titulo">
+                    <h1>Fale comigo também pelas redes-sociais</h1>
+                </div>
+                <div class="sociais">
+                    <a href=""><img src="../media/Logos/InstaWhite.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/TwitterWhite.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/DiscordWhite.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/BehanceWhite.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="conteudo-footer">
+            <div class="footer-esquerda">
+                <div>
+                    <img src="../media/Logos/LogoSharpMini.png" alt="Logo Sharpdom Arts">
+                </div>
+                <div class="direitos">
+                    <p>© 2025 Sharpdom Arts. All rights reserved. </p>
+                </div>
+            </div>
+            <div class="footer-direita">
+                <div class="mapa-site">
+                    <a href="../index.html">Início</a>
+                    <a href="../html/servicos.html">Serviços</a>
+                    <a href="../html/contatos.html">Contatos</a>
+                </div>
+                <div class="redes-sociais">
+                    <a href=""><img src="../media/Logos/InstaBlack.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/TwitterBlack.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/DiscordBlack.png" alt=""></a>
+                    <a href=""><img src="../media/Logos/BehanceBlack.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
