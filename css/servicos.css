@@ -54,12 +54,31 @@ main{
     background-color: #000000;
 }
 
+.area-botoes{
+    padding: 200px 30px;
+}
+
 .botoes-servicos{
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 200px 30px;
-    }
+}
+
+.sobre-botao{
+    transition: .35s;
+    cursor: pointer;
+}
+
+.botoes-servicos:hover >:not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.botoes-servicos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
 .botoes-servicos button{
     width: 200px;
@@ -213,4 +232,509 @@ footer{
 
 .footer-direita img:hover{
     width: 10px;
+}
+
+/* RESPONSIVIDADE */
+
+/* COMPUTADOR */
+@media screen and (min-width: 1024px) and (max-width: 1600px)  {
+    
+/* MAIN */
+
+.botoes-servicos button{
+    width: 150px;
+    height: 50px;
+
+}
+
+.titulo-categoria{
+    width: 900px;
+}
+
+.titulo-categoria h1{
+    font-size: 1.5em;
+}
+
+.titulo-categoria img{
+    width: 300px;
+}
+
+.area-ilustracoes{
+    width: 900px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-twitch{
+    width: 900px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-discord{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.discord-pack-cima{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 40px;
+    place-content: center;
+}
+
+.area-logos{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-stream-kit{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+    
+
+/* HEAD */
+
+.menu-site{
+    gap: 20px;
+}
+
+.menu-site a{
+    font-size: 1.25em;
+}
+
+.conteudo-header img{
+    width: 75px;
+}
+
+/* MAIN */
+
+.botoes-servicos{
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.botoes-servicos button{
+    width: 150px;
+    font-size: 0.8em;
+}
+
+.titulo-categoria{
+    width: 650px;
+}
+
+.titulo-categoria h1{
+    font-size: 1.25em;
+}
+
+.titulo-categoria img{
+    width: 280px;
+}
+
+.area-ilustracoes{
+    width: 600px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-ilustracoes img{
+    width: 300px;
+}
+
+.area-twitch{
+    width: 600px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-twitch img{
+    width: 300px;
+}
+
+.area-discord{
+    width: 600px;
+}
+
+.discord-pack-cima img{
+    width:  350px;
+}
+
+.discord-pack-cima{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 40px;
+    place-content: center;
+}
+
+.discord-pack-baixo{
+    width: 300px;
+}
+
+.discord-pack-baixo img{
+    width: 500px;
+}
+
+.area-logos{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-logos img{
+    width: 300px;
+}
+
+.area-stream-kit{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-stream-kit img{
+    width: 300px;
+}
+
+/* FOOTER */
+
+.direitos{
+    font-size: 0.6em;
+}
+
+.redes-sociais img{
+    width: 20px;
+}
+
+}
+
+/* CELULAR */
+@media screen and (min-width: 500px) and (max-width: 767px)  {
+    
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site a{
+    font-size: 0.9em;
+}
+
+.linguagem img{
+    width: 40px;
+}
+
+/* MAIN */
+
+.area-botoes{
+    padding: 100px 30px;
+}
+
+.botoes-servicos{
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.botoes-servicos button{
+    width: 150px;
+    font-size: 0.8em;
+}
+
+.titulo-categoria{
+    width: 350px;
+}
+
+.titulo-categoria h1{
+    font-size: 1em;
+}
+
+.titulo-categoria img{
+    width: 230px;
+}
+
+.area-ilustracoes{
+    width: 400px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-ilustracoes img{
+    width: 200px;
+}
+
+.area-twitch{
+    width: 400px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-twitch img{
+    width: 200px;
+}
+
+.discord-pack-cima img{
+    width:  300px;
+}
+
+.discord-pack-cima{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 40px;
+    place-content: center;
+}
+
+.discord-pack-baixo{
+    width: 200px;
+}
+
+.discord-pack-baixo img{
+    width: 300px;
+}
+
+.area-logos{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-logos img{
+    width: 200px;
+}
+
+.area-stream-kit{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-stream-kit img{
+    width: 200px;
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 15px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.mapa-site{
+    gap: 10px;
+}
+
+.mapa-site a{
+    font-size: 0.8em;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
+}
+
+/* CELULAR MENORES */
+@media screen and (max-width: 500px) {
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site{
+    gap: 10px;
+}
+
+.menu-site a{
+    font-size: 0.75em;
+}
+
+
+.linguagem img{
+    width: 30px;
+}
+
+/* MAIN */
+
+.area-botoes{
+    padding: 100px 30px;
+}
+
+.botoes-servicos{
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.botoes-servicos button{
+    width: 135px;
+    font-size: 0.7em;
+}
+
+.titulo-categoria{
+    width: 350px;
+}
+
+.titulo-categoria h1{
+    font-size: 0.8em;
+}
+
+.titulo-categoria img{
+    width: 200px;
+}
+
+.area-ilustracoes{
+    width: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-ilustracoes img{
+    width:  150px;
+}
+
+.area-twitch{
+    width: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-twitch img{
+    width: 150px;
+}
+
+.discord-pack-cima img{
+    width:  300px;
+}
+
+.discord-pack-cima{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 40px;
+    place-content: center;
+}
+
+.discord-pack-baixo{
+    width: 200px;
+}
+
+.discord-pack-baixo img{
+    width: 300px;
+}
+
+.area-logos{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-logos img{
+    width: 150px;
+}
+
+.area-stream-kit{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.area-stream-kit img{
+    width: 150px;
+}
+
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 10px;
+    gap: 5px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.mapa-site{
+    gap: 5px;
+}
+
+.mapa-site a{
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
 }

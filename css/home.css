@@ -40,6 +40,10 @@ header{
     text-decoration: underline;
 }
 
+div a.pagina-selecionada{
+    color: #447ED6;
+}
+
 /* MAIN */
 
 .conteudo-main{
@@ -153,6 +157,250 @@ footer{
     width: 30px;
 }
 
-.redes-sociais img:hover{
-    border: 1px solid #447ED6;
+/* RESPONSIVIDADE */
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+/* HEADER */
+
+.logo-header img{
+    width: 65px;
+}
+
+.menu-site a{
+    font-size: 1.25em;
+}
+
+.linguagem img{
+    width: 60px;
+}
+
+/* MAIN */
+.conteudo-sobre{
+    grid-template-columns: 1fr;
+}
+
+.arte-jade img{
+    width: 350px;
+}
+
+.artes img{
+    width: 200px;
+}
+
+/* FOOTER */
+
+.direitos{
+    font-size: 0.6em;
+}
+
+.redes-sociais img{
+    width: 20px;
+}
+
+}
+
+/* CELULAR  */
+@media screen and (min-width: 500px) and (max-width: 767px) {
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site a{
+    font-size: 0.9em;
+}
+
+
+.linguagem img{
+    width: 40px;
+}
+
+/* MAIN */
+
+.titulo-sobre h1{
+    font-size: 1em;
+}
+
+.conteudo-sobre{
+    grid-template-columns: 1fr;
+}
+
+.paragrafos p{
+    font-size: 0.95em;
+}
+
+.arte-jade img{
+    width: 350px;
+}
+
+.artes img{
+    width: 300px;
+}
+
+.artes{
+    display: grid;
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 15px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.mapa-site{
+    gap: 10px;
+}
+
+.mapa-site a{
+    font-size: 0.8em;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
+}
+
+/* CELULAR MENORES */
+@media screen and (max-width: 500px) {
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site{
+    gap: 10px;
+}
+
+.menu-site a{
+    font-size: 0.75em;
+}
+
+
+.linguagem img{
+    width: 30px;
+}
+
+/* MAIN */
+
+.titulo-sobre h1{
+    font-size: 0.8em;
+}
+
+.conteudo-sobre{
+    display: block;
+    margin: auto;
+    width: 300px;
+ 
+    
+}
+
+.paragrafos p{
+    font-size: 0.85em;
+    width: 300px;
+    text-align: justify;
+    margin: auto;
+}
+
+.arte-jade {
+    display: grid;
+    text-align: center;
+    margin: auto;
+}
+.arte-jade img{
+    width: 300px;
+}
+
+.artes img{
+    width: 200px;
+}
+
+.artes{
+    display: grid;
+    margin: none;
+    
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 10px;
+    gap: 5px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.mapa-site{
+    gap: 5px;
+}
+
+.mapa-site a{
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
 }

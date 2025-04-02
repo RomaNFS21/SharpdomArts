@@ -186,3 +186,255 @@ footer{
 .footer-direita img:hover{
     width: 10px;
 }
+
+/* RESPONSIVIDADE */ 
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+/* HEADER */
+
+.logo-header img{
+    width: 65px;
+}
+
+.menu-site a{
+    font-size: 1.25em;
+}
+
+.linguagem img{
+    width: 60px;
+}
+
+
+/* MAIN */
+
+.campo-resposta textarea{
+    width: 300px;
+}
+
+.campo-resposta input{
+    width: 300px;
+}
+
+.botao-enviar button{
+    width: 150px;
+}
+
+.formulario-p2 h1{
+    font-size: 1.5em;
+}
+
+.sociais img{
+    width: 70px;
+}
+
+/* FOOTER */
+
+.direitos{
+    font-size: 0.6em;
+}
+
+.redes-sociais img{
+    width: 20px;
+}
+
+}
+
+/* CELULAR */
+@media screen and (min-width: 500px) and (max-width: 767px){
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site a{
+    font-size: 0.9em;
+}
+
+
+.linguagem img{
+    width: 40px;
+}
+
+
+/* MAIN */
+
+.conteudo-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 150px 30px;
+    gap: 100px;
+}
+
+.campo-resposta textarea{
+    width: 300px;
+}
+
+.campo-resposta input{
+    width: 300px;
+}
+
+.botao-enviar button{
+    width: 150px;
+}
+
+.formulario-p2 h1{
+    font-size: 1.5em;
+}
+
+.sociais img{
+    width: 70px;
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 15px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.mapa-site{
+    gap: 10px;
+}
+
+.mapa-site a{
+    font-size: 0.8em;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
+}
+
+/* CELULAR MENOR*/
+@media screen and (max-width: 500px){
+
+/* HEADER */
+
+.logo-header img{
+    width: 35px;
+}
+
+.menu-site{
+    gap: 10px;
+}
+
+.menu-site a{
+    font-size: 0.75em;
+}
+
+
+.linguagem img{
+    width: 30px;
+}
+
+
+/* MAIN */
+
+.conteudo-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 150px 30px;
+    gap: 100px;
+}
+
+.campo-resposta textarea{
+    width: 300px;
+}
+
+.campo-resposta input{
+    width: 300px;
+}
+
+.botao-enviar button{
+    width: 150px;
+}
+
+.formulario-p2 h1{
+    font-size: 1em;
+}
+
+.sociais img{
+    width: 50px;
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    padding: 0 10px;
+    gap: 5px;
+}
+
+.direitos{
+    font-size: 0.5em;
+}
+
+.mapa-site{
+    width: 180px;
+}
+
+.footer-direita{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.mapa-site{
+    gap: 5px;
+}
+
+.mapa-site a{
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-esquerda{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer-esquerda img{
+    width: 25px;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes-sociais img{
+    width: 15px;
+}
+
+
+}
