@@ -22,6 +22,11 @@ header{
     margin: 30px ;
 }
 
+.logo-header img{
+    width: 92px;
+    transition: 2s;
+}
+
 .menu-site{
     display: flex;
     gap: 30px;
@@ -33,10 +38,15 @@ header{
     font-weight: bold;
     font-size: 1.5em;
     color: #000000;
+    transition: 2s;
 }
 
 .menu-site pagina-selecionada{
     color: #447ED6;
+}
+
+.linguagem img{
+    transition: 2s;
 }
 
 .menu-site a:hover{
@@ -56,13 +66,14 @@ main{
 
 .area-botoes{
     padding: 200px 30px;
+    transition: 2s;
 }
 
 .botoes-servicos{
     display: flex;
     justify-content: center;
     gap: 30px;
-    }
+}
 
 .sobre-botao{
     transition: .35s;
@@ -78,7 +89,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 30px;
-    }
+}
 
 .botoes-servicos button{
     width: 200px;
@@ -90,6 +101,7 @@ main{
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 1em;
+    transition: 2s;
 }
 
 .titulo-categoria{
@@ -97,6 +109,7 @@ main{
     margin: auto;
     margin-bottom: 30px;
     margin-top: 200px;
+    transition: 2s;
 }
 
 .titulo-categoria h1{
@@ -106,6 +119,12 @@ main{
     font-size: 2.5em;
     position: absolute;
     padding: 10px 0 0 10px;
+    transition: 2s;
+}
+
+.titulo-categoria img{
+    width: 403px;
+    transition: 2s;
 }
 
 .area-ilustracoes{
@@ -118,6 +137,11 @@ main{
     margin: auto;
 }
 
+.area-ilustracoes img{
+    width: 400px;
+    transition: 2s;
+}
+
 .area-twitch{
     width: 1200px;
     display: grid;
@@ -126,6 +150,11 @@ main{
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+.area-twitch img{
+    width: 400px;
+    transition: 2s;
 }
 
 .area-discord{
@@ -147,12 +176,22 @@ main{
     margin-bottom: 50px;
 }
 
+.discord-pack-cima img{
+    width: 520px;
+    transition: 2s;
+}
+
 .discord-pack-baixo{
     width: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+.discord-pack-baixo img{
+    width: 750px;
+    transition: 2s;
 }
 
 .area-logos{
@@ -165,6 +204,11 @@ main{
     margin: auto;
 }
 
+.area-logos img{
+    width: 400px;
+    transition: 2s;
+}
+
 .area-stream-kit{
     width: 1200px;
     display: grid;
@@ -174,6 +218,11 @@ main{
     justify-content: center;
     margin: auto;
     padding-bottom: 50px;
+}
+
+.area-stream-kit img{
+    width: 400px;
+    transition: 2s;
 }
 
 /* FOOTER */
@@ -199,10 +248,22 @@ footer{
     gap: 30px;
 }
 
+.footer-esquerda p{
+    transition: 2s;
+}
+
 .footer-direita{
     display: flex;
     align-items: center;
     gap: 30px
+}
+
+.footer-direita a{
+    transition: 2s;
+}
+
+.footer-direita img{
+    transition: 2s;
 }
 
 .mapa-site{
@@ -228,10 +289,6 @@ footer{
 
 .footer-direita img{
     width: 30px;
-}
-
-.footer-direita img:hover{
-    width: 10px;
 }
 
 /* RESPONSIVIDADE */

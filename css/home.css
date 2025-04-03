@@ -15,7 +15,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px;
+    margin: 30px ;
+}
+
+.logo-header img{
+    width: 92px;
+    transition: 2s;
 }
 
 .menu-site{
@@ -29,10 +34,15 @@ header{
     font-weight: bold;
     font-size: 1.5em;
     color: #000000;
+    transition: 2s;
 }
 
 .menu-site pagina-selecionada{
     color: #447ED6;
+}
+
+.linguagem img{
+    transition: 2s;
 }
 
 .menu-site a:hover{
@@ -55,12 +65,13 @@ div a.pagina-selecionada{
     width: 100%;
 }
 
-.titulo-sobre{
+.titulo-sobre h1{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 2em ;
     margin: 30px;
     text-align: center;
+    transition: 2s;
 }
 
 .conteudo-sobre{
@@ -69,7 +80,6 @@ div a.pagina-selecionada{
     justify-content: space-between;
     gap: 30px;
     margin: 30px;
-
 }
 
 .paragrafos{
@@ -81,18 +91,24 @@ div a.pagina-selecionada{
     text-align: justify;
     text-indent: 1em;
     font-size: 1.5em;
+    transition: 2s;
 }
 
 .conteudo-sobre p:last-child{
     margin-top: 30px;
 }
 
-.arte-jade{
+.arte-jade img{
+    display: grid;
+    text-align: center;
     margin: auto;
+    width: 400px;
+    transition: 2s;
 }
 
 .artes img{
     width: 300px;
+    transition: 2s;
 }
 
 .artes{
@@ -118,6 +134,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
+    
 }
 
 .footer-esquerda{
@@ -126,10 +143,22 @@ footer{
     gap: 30px;
 }
 
+.footer-esquerda p{
+    transition: 2s;
+}
+
 .footer-direita{
     display: flex;
     align-items: center;
     gap: 30px
+}
+
+.footer-direita a{
+    transition: 2s;
+}
+
+.footer-direita img{
+    transition: 2s;
 }
 
 .mapa-site{
@@ -153,9 +182,10 @@ footer{
     gap: 10px;
 }
 
-.redes-sociais img{
+.footer-direita img{
     width: 30px;
 }
+
 
 /* RESPONSIVIDADE */
 
@@ -223,7 +253,7 @@ footer{
 /* MAIN */
 
 .titulo-sobre h1{
-    font-size: 1em;
+    font-size: 1.7em;
 }
 
 .conteudo-sobre{
@@ -318,15 +348,13 @@ footer{
 /* MAIN */
 
 .titulo-sobre h1{
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 .conteudo-sobre{
     display: block;
     margin: auto;
     width: 300px;
- 
-    
 }
 
 .paragrafos p{
@@ -336,17 +364,12 @@ footer{
     margin: auto;
 }
 
-.arte-jade {
-    display: grid;
-    text-align: center;
-    margin: auto;
-}
 .arte-jade img{
     width: 300px;
 }
 
 .artes img{
-    width: 200px;
+    width: 300px;
 }
 
 .artes{
